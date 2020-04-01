@@ -29,7 +29,7 @@ class String
   end
 
   def count_sentences
-    sentance_array = self.split(/[\.\?\!]/)
+    sentance_array = self.split([\.\?\!])
     i = 0
     while i < sentance_array.size
       if sentance_array[i] == ""
